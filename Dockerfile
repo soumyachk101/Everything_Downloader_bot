@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
 # Install curl and ffmpeg via Alpine package manager
-RUN apk add --no-cache curl ffmpeg
+RUN apk add --no-cache curl ffmpeg python3
 
 WORKDIR /app
 
